@@ -1,4 +1,21 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
+#Controllers......................................................
+App.controller "CategoryIndexCtrl", ["$scope", "Category", ($scope, Category) ->
+  $scope.categories = Category.query()
+]
 
+App.controller "CategoryShowCtrl", ["$scope", "$routeParams", "Category", ($scope, $routeParams, Category) ->
+  $scope.category = Category.get(id: $routeParams.id)
+]
+
+#Services.........................
+CategoryServices = angular.module("CategoryServices", ["ngResource"])
+CategoryServices.factory "Category", ["$resource", ($resource) ->
+  $resource "categories/:id.json", {},
+    query:
+      method: "GET"
+      params:
+        id: ""
+
+      isArray: true
+
+]
