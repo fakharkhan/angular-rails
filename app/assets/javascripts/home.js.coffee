@@ -1,29 +1,36 @@
-app = angular.module("MyApp", ["ngRoute", "CategoryControllers"])
+#Application...............
+App = angular.module("MyApp", ["ngRoute", 'CategoryServices'])
 
 #Routings..........................................
-app.config ["$routeProvider", ($routeProvider) ->
+App.config ["$routeProvider", ($routeProvider) ->
   $routeProvider.when("/categories",
     templateUrl: "partials/category-list.html"
-    controller: "Index"
+    controller: "CategoryListCtrl"
   ).when("/categories/:id",
     templateUrl: "partials/category-detail.html"
-    controller: "Show"
+    controller: "CategoryDetailCtrl"
   ).otherwise redirectTo: "/categories"
 ]
 
-
-CategoryControllers = angular.module("CategoryControllers", [])
-
-CategoryControllers.controller "Index", ["$scope", "$http", ($scope, $http) ->
-  $http.get("http://localhost:3000/categories.json").success ((data) ->
-    $scope.categories = data
-  )
+#Controllers......................................................
+App.controller "CategoryListCtrl", ["$scope", "Category", ($scope, Category) ->
+  $scope.categories = Category.query()
 ]
 
-CategoryControllers.controller "Show", ["$scope", "$http", "$routeParams", ($scope, $http, $routeParams) ->
-  $http.get("http://localhost:3000/categories/"+$routeParams.id+".json").success ((data) ->
-    $scope.category = data
-  )
+App.controller "CategoryDetailCtrl", ["$scope", "$routeParams", "Category", ($scope, $routeParams, Category) ->
+  $scope.category = Category.get(id: $routeParams.id)
 ]
 
+#Services.........................
+CategoryServices = angular.module("CategoryServices", ["ngResource"])
+CategoryServices.factory "Category", ["$resource", ($resource) ->
+  $resource "categories/:id.json", {},
+    query:
+      method: "GET"
+      params:
+        id: ""
+
+      isArray: true
+
+]
 
