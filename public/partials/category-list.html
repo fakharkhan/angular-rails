@@ -1,0 +1,21 @@
+<table>
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Active</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+
+    <tbody>
+
+    <tr ng-repeat="category in categories">
+        <td> <a href="#/categories/{{category.id}}">{{category.title}}</a></td>
+        <td>{{category.description}}</td>
+        <td>{{category.active}}</td>
+        <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+    </tr>
+
+    </tbody>
+</table>
