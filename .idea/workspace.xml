@@ -5,8 +5,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/templates/category/edit.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/templates/category/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/templates/category/show.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/categories.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/categories.js.coffee" />
     </list>
     <ignored path="angular-rails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,28 +55,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="categories.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/categories.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="25" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="13" selection-start="504" selection-end="504" vertical-scroll-proportion="0.531401">
+            <state line="29" column="0" selection-start="890" selection-end="890" vertical-scroll-proportion="0.7004831">
               <folding />
             </state>
           </provider>
@@ -122,9 +104,9 @@
         <option value="$PROJECT_DIR$/app/views/application/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/categories.js.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js.coffee" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/categories.js.coffee" />
       </list>
     </option>
   </component>
@@ -735,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/categories.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.07537688">
@@ -756,16 +731,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js.coffee">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="25" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
+        <state line="22" column="13" selection-start="504" selection-end="504" vertical-scroll-proportion="0.531401">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/categories.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="504" selection-end="504" vertical-scroll-proportion="0.531401">
+        <state line="59" column="0" selection-start="1607" selection-end="1607" vertical-scroll-proportion="1.4555922">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="890" selection-end="890" vertical-scroll-proportion="0.7004831">
           <folding />
         </state>
       </provider>
