@@ -6,7 +6,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/templates/category/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/templates/category/show.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/categories.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/categories.js.coffee" />
     </list>
     <ignored path="angular-rails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +18,7 @@
     <file path="/index.json.jbuilder" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384518555639" ignored="false" />
     <file path="/category-detail.html" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384578669200" ignored="false" />
     <file path="/routes.rb" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384588334306" ignored="false" />
-    <file path="/application.js.coffee" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384530443712" ignored="false" />
+    <file path="/application.js.coffee" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384710556534" ignored="false" />
     <file path="/category-edit.html" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384578804089" ignored="false" />
     <file path="/categories.js.coffee" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384599875608" ignored="false" />
     <file path="/categories_controller.rb" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384584303266" ignored="false" />
@@ -67,7 +66,7 @@
       <file leaf-file-name="application.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="4" selection-start="2330" selection-end="2330" vertical-scroll-proportion="1.8256578">
+            <state line="74" column="0" selection-start="2339" selection-end="2339" vertical-scroll-proportion="1.8256578">
               <folding />
             </state>
           </provider>
@@ -699,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="4" selection-start="2330" selection-end="2330" vertical-scroll-proportion="1.8256578">
+        <state line="74" column="0" selection-start="2339" selection-end="2339" vertical-scroll-proportion="1.8256578">
           <folding />
         </state>
       </provider>
