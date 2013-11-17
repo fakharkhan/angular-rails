@@ -1,0 +1,24 @@
+<h3>Category Edit Form</h3>
+<hr>
+
+<form name="form">
+<label>Title:</label><br>
+<input type="text" ng-model="category.title" size="50" required/><br>
+
+
+<label>Description:</label><br>
+<input type="text" ng-model="category.description" size="50"><br>
+
+
+<label>Active:</label>
+<input type="checkbox" ng-model="category.active"><br>
+
+<button ng-click="save()" ng-disabled="isSaveDisabled()">Save</button>
+</form>
+<hr/>
+Debug View:
+<pre>form={{category}}</pre>
+
+<hr>
+<a href="#/categories">Back to List</a>
+
