@@ -1,4 +1,6 @@
 angular-rails
 =============
 
-Learning Application for AngularJS and Rails 4
+Angular.js, Rails 4, CoffeeScript and Twitter Bootstrap
+
+Contributers are welcome
