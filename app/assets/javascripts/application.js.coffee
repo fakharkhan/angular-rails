@@ -1,5 +1,5 @@
 #Application...............
-window.App = angular.module("MyApp", ["ngRoute","ngResource", "CategoryServices"])
+window.App = angular.module("MyApp", ["ngRoute","ngResource"])
 
 App.config ["$httpProvider", (provider) ->
   provider.defaults.headers.common["X-CSRF-Token"] = $("meta[name=csrf-token]").attr("content")
@@ -26,6 +26,25 @@ App.config ["$routeProvider", ($routeProvider) ->
   )
 
   .otherwise redirectTo: "/categories"
+]
+
+#Services.........................
+#App.CategoryServices = angular.module("CategoryServices", ["ngResource"])
+App.factory "Category",["$resource", ($resource) ->
+  $resource("/categories/:id.json", {},
+    create:
+      method: "POST"
+
+    index:
+      method: "GET"
+      isArray: true
+
+    update:
+      method: "PUT"
+
+    destroy:
+      method: "DELETE"
+  )
 ]
 
 #Controllers......................................................
@@ -70,22 +89,5 @@ App.controller "CategoryNewCtrl", ["$location","$scope","Category", ($location,$
 ]
 
 
-#Services.........................
-App.CategoryServices = angular.module("CategoryServices", ["ngResource"])
-App.CategoryServices.factory "Category", ($resource) ->
-  $resource("/categories/:id.json", {},
-    create:
-      method: "POST"
-
-    index:
-      method: "GET"
-      isArray: true
-
-    update:
-      method: "PUT"
-
-    destroy:
-      method: "DELETE"
-  )
 
 
