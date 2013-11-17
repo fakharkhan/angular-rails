@@ -5,12 +5,12 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/templates/category/edit.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/templates/category/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/templates/category/show.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-rails.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384708589548" ignored="false" />
+    <file path="/Dummy.txt" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384709126220" ignored="false" />
     <file path="/application.html.erb" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384530241057" ignored="false" />
     <file path="/index.html.erb" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384602604507" ignored="false" />
     <file path="/home.js.coffee" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384527884456" ignored="false" />
@@ -29,6 +29,7 @@
     <file path="$PROJECT_DIR$/../../odesk/retenant-server/db/schema.rb" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384656654481" ignored="false" />
     <file path="$PROJECT_DIR$/../../odesk/retenant-server/app/controllers/api_v1_controller.rb" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384656654481" ignored="false" />
     <file path="$PROJECT_DIR$/../../odesk/retenant-server/app/models/user.rb" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384656654481" ignored="false" />
+    <file path="/Gemfile" changelist="6e771d16-8a9d-40a2-bc35-7090562a30ef" time="1384709158747" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,17 @@
     <favorites_list name="angular-rails" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="15" selection-start="211" selection-end="211" vertical-scroll-proportion="0.19261637">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -70,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/partials/category-detail.html" />
         <option value="$PROJECT_DIR$/app/controllers/Api/v1/categories_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
         <option value="$PROJECT_DIR$/public/partials/category-edit.html" />
@@ -86,13 +96,14 @@
         <option value="$PROJECT_DIR$/app/views/application/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/categories.js.coffee" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1320" />
-    <option name="height" value="745" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -120,6 +131,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,8 +167,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,14 +454,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1320" height="745" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1320" height="746" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14756672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23155417" sideWeight="0.6703645" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2354788" sideWeight="0.6703645" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -527,11 +538,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/categories/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="325" selection-end="325" vertical-scroll-proportion="0.49222797" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="2" selection-start="203" selection-end="203" vertical-scroll-proportion="0.12437811" />
@@ -599,21 +605,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/templates/categories/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="43" selection-start="147" selection-end="147" vertical-scroll-proportion="0.075250834">
-          <folding />
-        </state>
+        <state line="3" column="43" selection-start="147" selection-end="147" vertical-scroll-proportion="0.075250834" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.024115756">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.024115756" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="5" selection-start="462" selection-end="462" vertical-scroll-proportion="0.4340836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="15" selection-start="211" selection-end="211" vertical-scroll-proportion="0.19261637">
           <folding />
         </state>
       </provider>
